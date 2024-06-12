@@ -1,0 +1,101 @@
+
+.back{
+    
+    padding-bottom: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-image:  url(../../assets/back.png); /* Imagem de fundo */;
+
+       
+}
+
+.back::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Preto com 50% de opacidade */
+    z-index: 1;
+  }
+
+.h1-titulo{
+    font-size: 200%;
+    display: flex;
+    text-align: center;
+    color: #0E2A47;
+    padding: 20vh;
+}
+
+.h1-home{
+    display: flex;
+    justify-content: center;
+    margin-top: 13vh;
+    margin-bottom: 9vh;
+}
+
+.p1{
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 7vh;
+
+}
+
+.p2{
+    display: flex;
+    justify-content: end;
+    margin-right: 2vw;
+    text-align: end;
+    margin-top: 9vh;
+
+}
+
+.fonte{
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    justify-content: end;
+    margin-right: 2vw;
+    text-align: end;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+}
+
+.contexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 11vh 0;
+    background-color: #0E2A47;
+    color: #fff;
+}
+
+.trazer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10vh ;
+}
+
+.h2-veri{
+    margin-top: 10vh ;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+   margin: 5vh;
+    align-items: center;
+    
+}
+
+li{
+    list-style-type: disc;
+}
+
+.li-esp{
+    margin: 1vh 0;
+    font-weight: 500;
+    font-size: 16px;
+}
